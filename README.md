@@ -1,4 +1,4 @@
-img src="PayU-Logo.png" align="right" />
+<img src="PayU-Logo.png" align="right" />
 # payu-latam-prestashop-v.3.0.0
 Prestashop Plugin  for the version 1.7
 
