@@ -67,8 +67,7 @@ class PayuLatam extends PaymentModule
         if (!parent::install() || !$this->registerHook('payment') || !$this->registerHook('paymentReturn')) {
             return false;
         }
-        return true;
-        
+        return true;        
     }
     
     public function uninstall()
@@ -229,7 +228,6 @@ class PayuLatam extends PaymentModule
                 !Validate::isGenericName(Tools::getValue('test'))) {
             $this->postErrors[] = $this->l('You must indicate if the transaction mode is test or not');
         }
-
     }
 
     private function saveConfiguration()

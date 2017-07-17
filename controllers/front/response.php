@@ -168,7 +168,6 @@ class PayulatamResponseModuleFrontController extends ModuleFrontController
                     'css' => '../modules/payulatam/css/'
                 )
             );
-
         } else {
             $this->context->smarty->assign(
                 array(

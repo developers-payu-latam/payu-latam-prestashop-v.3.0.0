@@ -112,7 +112,6 @@ if (Tools::strtoupper($signature) == Tools::strtoupper($signature_md5)) {
             'css' => '../modules/payulatam/css/'
         )
     );
-
 } else {
     Context::getContext()->smarty->assign(
         array(
