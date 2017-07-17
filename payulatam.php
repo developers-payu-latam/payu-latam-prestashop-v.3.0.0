@@ -67,7 +67,7 @@ class PayuLatam extends PaymentModule
         if (!parent::install() || !$this->registerHook('payment') || !$this->registerHook('paymentReturn')) {
             return false;
         }
-        return true;        
+        return true;
     }
     
     public function uninstall()
