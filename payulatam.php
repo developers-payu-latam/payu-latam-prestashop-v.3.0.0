@@ -216,7 +216,7 @@ class PayuLatam extends PaymentModule
                 ->setLogo(_MODULE_DIR_ . 'views/img/logo.png')
                 ->setAdditionalInformation('')
                 ->setAction($this->context->link->getModuleLink($this->name, 'payment'));
-        return [$newOption];
+        return array($newOption);
     }
 
     private function postValidation()

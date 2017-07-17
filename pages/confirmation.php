@@ -58,7 +58,7 @@ $pol_response_code = isset($_REQUEST['response_code_pol']) ? $_REQUEST['response
 $cart = new Cart((int)$reference_code);
 if (Tools::strtoupper($signature) == Tools::strtoupper($signature_md5)) {
     $state = 'PAYU_OS_FAILED';
-    $errors = [];
+    $errors =  array();
     if ($transaction_state == 6 && $pol_response_code == 5) {
         $state = 'PAYU_OS_FAILED';
     } elseif ($transaction_state == 6 && $pol_response_code == 4) {
