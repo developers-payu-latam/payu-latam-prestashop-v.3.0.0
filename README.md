@@ -1,5 +1,5 @@
 
-# payu-latam-prestashop-v.3.0.0 <img src="PayU-Logo.png" align="right" />
+# payu-latam-prestashop-v.3.0.0 <img src="views/img/PayU-Logo.png" align="right" />
 
 
 
