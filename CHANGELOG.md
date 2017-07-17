@@ -22,5 +22,8 @@ Release Notes for Payu Latam Payments Plugin for PrestaShop 1.6
 - Updated our test environment URL to https://sandbox.gateway.payulatam.com/ppp-web-gateway/.
 - Updated the payment button with our new corporate image. 
 
+## [v3.0.0] - (2016-05-12)
+### Changed
+- Updated our plugin integrating the new hooking functions.
 
 
