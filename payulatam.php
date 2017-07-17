@@ -23,6 +23,8 @@
 *  @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 */
 
+use PrestaShop\PrestaShop\Core\Payment\PaymentOption;
+
 if (!defined('_PS_VERSION_')) {
     function exitPs()
     {
@@ -209,7 +211,7 @@ class PayuLatam extends PaymentModule
     {
         $newOption = new PaymentOption();
         $paymentForm = $this->fetch('views/templates/hook/payulatam_payment.tpl');
-        $newOption->setCallToActionText($this->trans('Pay by PayU', array(), 'Modules.MyModule.Shop'))
+        $newOption->setCallToActionText($this->trans('Pay by PayU', array()))
                 ->setForm($paymentForm)
                 ->setLogo(_MODULE_DIR_ . 'views/img/logo.png')
                 ->setAdditionalInformation('')
