@@ -1,0 +1,230 @@
+
+@font-face {
+    font-family: 'amplesoft-lightlight';src: url('../fonts/soneri_type_-_amplesoft-light-webfont.eot');src: url('../fonts/soneri_type_-_amplesoft-light-webfont.eot?#iefix') format('embedded-opentype'),      url('../fonts/soneri_type_-_amplesoft-light-webfont.woff2') format('woff2'), url('../fonts/soneri_type_-_amplesoft-light-webfont.woff') format('woff'), url('../fonts/soneri_type_-_amplesoft-light-webfont.ttf') format('truetype'), url('../fonts/soneri_type_-_amplesoft-light-webfont.svg#amplesoft-lightlight') format('svg'); font-weight: normal; font-style: normal;}
+
+@font-face {
+    font-family: 'AmpleSoft-Medium-webfont'; src: url('../fonts/AmpleSoft-Medium-webfont.eot'); src: url('../fonts/AmpleSoft-Medium-webfont.eot') format('embedded-opentype'), url('../fonts/AmpleSoft-Medium-webfont.woff2') format('woff2'), url('../fonts/AmpleSoft-Medium-webfont.woff') format('woff'), url('../fonts/AmpleSoft-Medium-webfont') format('truetype'), url('../fonts/AmpleSoft-Medium-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight'; src: url('../fonts/opensans-light-webfont.eot'); src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff'), url('../fonts/opensans-light-webfont.ttf') format('truetype'), url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg'); font-weight: normal; font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold'; src: url('../fonts/opensans-bold-webfont.eot'); src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff'), url('../fonts/opensans-bold-webfont.ttf') format('truetype'), url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold; font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular'; src: url('../fonts/opensans-regular-webfont.eot'); src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face {
+    font-family: 'amplesoft-regularregular'; src: url('../fonts/soneri_type_-_amplesoft-regular.eot'); src: url('../fonts/soneri_type_-_amplesoft-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/soneri_type_-_amplesoft-regular.woff2') format('woff2'), url('../fonts/soneri_type_-_amplesoft-regular.woff') format('woff'), url('../fonts/soneri_type_-_amplesoft-regular.ttf') format('truetype'), url('../fonts/soneri_type_-_amplesoft-regular.svg#amplesoft-regularregular') format('svg'); font-weight: normal; font-style: normal;}
+
+a {color: #a6c307;text-decoration:none;}
+
+a:hover{color:#3c9339}
+
+h2{ font-family: 'amplesoft-regularregular';font-size:24px;}
+
+h3{ font-family: 'amplesoft-regularregular';font-size:20px;}
+
+div.header_payu { background: url(../img/header.png) no-repeat right top #f6f6f6; overflow: auto;height:258px;}
+
+.table-response{ width: 42%;}
+
+.md-h1{text-align: center;}
+
+.md-tracking{display:none}
+
+.div-redirect{text-align:center;}
+
+.md-error{color:red}
+
+.tx-redirect{font-size:15px;}
+
+.link-redirect{padding-left: 20px;}
+
+.md-payment{width:160px}
+
+.md-form{display:none}
+
+.left-container{width:300px;float:left;}
+
+.icons{width:100%;background:#b2d235;}
+
+.icons ul{margin-top:0px;}
+
+.logo-py{width:140px;display:block;}
+
+.ctwrapper {width:960px;margin:0px auto 30px auto;box-shadow: 0 0 5px #CCC;padding-bottom:20px;font-family: Arial, Helvetica, sans-serif ; color: #262626;font-size:14px;}
+
+.md-icos_payu{width:80%;margin:0px auto 0px auto;padding-top:10px;}
+
+.md-icos_payu li{ float:left;list-style-type:none;text-align:center;width:33.333333%;}
+
+.clearfix {
+  overflow: auto;
+}
+
+.tx-blue-ligth{ font-family: 'AmpleSoft-Medium-webfont';}
+
+.md-copy_payu{display:block;margin-left:40px;font-family: 'amplesoft-regularregular';font-size:24px;padding-top:15px;}
+
+.md_wrapper_gray{background-color:#f8f8f8;border-radius:10px;padding:10px 10px 25px 10px;margin-bottom:20px;width:80%;}
+
+.md-btn{color:#ffffff;font-family: 'open_sansbold';text-align: center;text-decoration:none;background-image:url(../img/arrow_button.png);background-position:90% center; background-repeat:no-repeat;}
+
+.button_payu{background-color:#b2d235 !important;  padding:16px 30px 16px 20px !important; display:block;border-radius:40px !important; color:#ffffff !important; text-decoration:none;margin-top:20px !important; margin-left:40px !important;  border:0;}
+
+.button_payu:hover{background:#3c9339 !important;color:#ffffff;}
+
+.md-wrapper_payu{width:100%;margin:20px auto 0px auto;}
+
+.md-tl_payu{float: left;text-align: left;width: 45%;}
+
+.payu_image{padding:20px 0px 0px 30px;width:50%;float:right;}
+
+.md-col_payu{width:45%;float:left;}
+
+.container_payu{width:90%;margin:auto;}
+
+.security{padding-left:30px;padding-top:15px;}
+
+.benefits{padding-top:15px;padding-bottom:20px;}
+
+.benefits ul li, .security ul li{list-style-image: url("../img/bullet.png");  margin: 0 0 8px 0;}
+
+.benefits ul, .security ul{margin: 0 15px 0px 0px; padding: 0 28px;}
+
+.credentials_payu ul{padding:0px;}
+
+ul{padding:0px;}
+
+ul li{text-indent:0px;list-style-type:none;padding:0px;margin-left:0px;}
+
+.config_payu{width: 45%;float: left;padding: 0px 20px 0px 20px;}
+  
+.credentials_payu{  width: 45%;float: right;padding: 0px 20px 0px 20px;border-left: dotted 2px #7e7e7e;}
+  
+ .config_payu h3, .credentials_payu h3{  color: #262626; font-size: 24px;}
+
+.config_payu h3{background: url('../img/config.png') no-repeat 0px; height: 40px; padding-left: 45px; padding-top: 5px;}
+
+.credentials_payu h3{background:url('../img/credentials.png') no-repeat 0px;height: 40px;padding-left: 45px;padding-top: 5px;}
+  
+ .credentials_payu .caption{color: #7e7e7e;font-style: italic;font-size: 12px;font-family: #arial;}
+  
+  .credentials_payu input.input_payu[type="text"] {margin-bottom: 10px;width: 90%;margin-top: 5px;padding: 3px;}
+  
+  .credentials_payu form {  padding: 0px 10px 0px 10px}
+  
+  .credentials_payu label, .credentials_payu .label_payu{font-size: 15px;color: #262626;font-family: 'open_sansbold';width: 100% !important;text-align: left!important;font-weight: normal !important;padding: 0 !important;}
+  
+  .advice_payu{background:#4cc0ad url('../img/alert.png') no-repeat 20px 20px; padding: 3px 20px 10px 20px; color: #ffffff;border-radius:5px;}
+  
+  .advice_payu h4{font-family: 'open_sansbold';padding-left:45px;font-size:18px;}
+  
+  .config_payu .steps {font-weight: normal; color: #58595b; font-size: 13px;}
+  
+  .config_payu ol li{  margin-bottom: 15px;line-height: 20px;color: #b2d235;font-weight: bold;font-size: 18px;}
+  
+  .credentials_payu .button_payu{margin-left:0px;margin-top:10px;}
+  
+  .nobootstrap{min-width:55% !important;}
+  
+.table-response{ width: 42%;}
+
+.md-h1{text-align: center;}
+
+.md-tracking{display:none}
+
+.div-redirect{text-align:center;}
+
+.md-error{color:red}
+
+.tx-redirect{font-size:15px;}
+
+.link-redirect{padding-left: 20px;}
+
+.md-payment{width:160px}
+
+.md-form{display:none}
+
+  p.payment_module a.link-redirect {background: url(../img/payu_green.png) 15px 15px no-repeat #fbfbfb; background-size: 74px; background-position-y: 50%;}
+  p.payment_module a.link-redirect:after {display: block;content: "\f054"; position: absolute; right: 15px; margin-top: -11px; top: 50%; font-family: "FontAwesome"; font-size: 25px; height: 22px; width: 14px; color: #777777;}
+  p.payment_module a:hover {background-color: #f6f6f6; }
+
+  
+    
+  @media (max-width:958px){
+	  .ctwrapper{width:90%;}
+	  
+	  .md-col_payu, .credentials_payu, .config_payu{width:95%;margin:0px auto 0px auto;}
+	  
+	  .credentials_payu, .config_payu{display:block;  padding: 0px auto 0px auto;
+  border-left: 0;}
+  
+  
+	  .payu_image{padding:0px;}
+	  
+	  .md-icos_payu{}
+	  
+	  .security{padding-left:0px;padding-top:0px;}
+	  
+	  .payu_image{display:none;}
+	  
+	  h3{text-align:left;}
+	  
+	  .config_payu h3, .credentials_payu h3{text-align:left;}
+	  
+	  h2{text-align:left;}
+	  
+	  .md_wrapper_gray{width:95%;border-radius:0;}
+	  
+	      
+	  .md-copy_payu {}
+	  
+	  .benefits{padding-top:0px;padding-bottom:0px;}
+	  
+	  .config_payu{padding:20px 0px 0px 0px;}
+	  
+	  .advice_payu{ width: 97%;}
+	  }
+
+@media (max-width:635px){
+	
+	
+	 .ctwrapper{width:100%;}
+	 
+	 .md-copy_pay{font-size:18px;}
+	 
+	 .button_payu{width:60%;margin:10px auto;}
+	 
+	 .left-container{width:80%;margin:0px auto 0px auto;display:block;float:none;}
+	 
+	 .benefits ul, .security ul{padding:0px 0px 0px 20px;}
+	 
+	.advice_payu{ width: 95%;}
+	
+	}
+	
+	@media (max-width:610px){
+		.md-copy_payu {text-align:center;width:100%;color:#ffffff;margin-left:0px;font-size:20px;}
+		.md-copy_payu span{margin-top:25px;}
+		.advice_payu{ width: 94%;}
+		}
+
+@media (max-width:550px){
+	.md-icos_payu li img{width:60%;height:60%;}
+	.advice_payu{ width: 94%;}
+	}
+ 
+
+

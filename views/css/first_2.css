@@ -1,0 +1,206 @@
+body { font-family: Arial, Helvetica, sans-serif ; color: #58595b;}
+
+@font-face {
+    font-family: 'amplesoft-lightlight';
+    src: url('../fonts/soneri_type_-_amplesoft-light-webfont.eot');
+    src: url('../fonts/soneri_type_-_amplesoft-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/soneri_type_-_amplesoft-light-webfont.woff2') format('woff2'),
+         url('../fonts/soneri_type_-_amplesoft-light-webfont.woff') format('woff'),
+         url('../fonts/soneri_type_-_amplesoft-light-webfont.ttf') format('truetype'),
+         url('../fonts/soneri_type_-_amplesoft-light-webfont.svg#amplesoft-lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmpleSoft-Medium-webfont';
+    src: url('../fonts/AmpleSoft-Medium-webfont.eot');
+    src: url('../fonts/AmpleSoft-Medium-webfont.eot') format('embedded-opentype'),
+         url('../fonts/AmpleSoft-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/AmpleSoft-Medium-webfont.woff') format('woff'),
+         url('../fonts/AmpleSoft-Medium-webfont') format('truetype'),
+         url('../fonts/AmpleSoft-Medium-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amplesoft-regularregular';
+    src: url('../fonts/soneri_type_-_amplesoft-regular.eot');
+    src: url('../fonts/soneri_type_-_amplesoft-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/soneri_type_-_amplesoft-regular.woff2') format('woff2'),
+         url('../fonts/soneri_type_-_amplesoft-regular.woff') format('woff'),
+         url('../fonts/soneri_type_-_amplesoft-regular.ttf') format('truetype'),
+         url('../fonts/soneri_type_-_amplesoft-regular.svg#amplesoft-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+div.header_payu { background: url(../img/header.png) no-repeat right bottom #f6f6f6; overflow: auto;height:258px;}
+
+div.payu { margin: 15px 0;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+h2, h3, h4 { font-family: 'AmpleSoft-Medium-webfont'; }
+
+}
+
+.ctwrapper { margin: 10px auto; width: 960px; box-shadow: 0 0 5px #CCC; }
+
+
+h2, h3, h4{-webkit-font-smoothing: antialiased;margin-bottom:0px;font-weight: normal;}
+
+h2{font-family: 'amplesoft-regularregular';font-weight: normal;}
+
+.advice_payu h4{color:#ffffff;background:url('../img/alert.png') no-repeat 0px 0px;height:40px;padding-left:50px;padding-top:10px;font-size:18px; font-weight: normal; font-family: 'open_sansbold';margin-top:15px;}
+
+p{font-size:13px;-webkit-font-smoothing: antialiased;}
+
+a{color:#a6c307;}
+
+.steps a:hover{color:#3c9339;}
+
+.md-col_payu li{font-size:13px;}
+
+
+.tx-blue-ligth {font-family:'AmpleSoft-Medium-webfont';}
+
+.advice{background:#4cc0ad; padding:3px 20px 10px 20px;color:#ffffff;}
+
+.advice h4{color:#ffffff;background:url('../img/alert.png') no-repeat 0px 0px;height:40px;padding-left:50px;padding-top:10px;font-size:18px; font-weight: normal;}
+
+.logo-py { width: 148px; display:inline-block;}
+.md-copy_payu { padding: 0 15px; font-size: font-size:18px; line-height: 1.1em;font-family: 'amplesoft-regularregular';}
+.md-btnhd_payu { margin: 27px 30px; width:300px;font-family: 'open_sansbold';display:block;}
+.button_en{ width: 300px;}
+.button_pr{ width: 228px;}
+.md-icos_payu { display:inline-block;margin:10px 0px 0px 120px; }
+.md-icos_payu ul { margin: 0; padding: 0;}
+.md-icos_payu li { display: inline-block; width: 90px;margin-right:0.188em;}
+
+
+.md-wrapper_payu {  margin: 0 25px; font-size: 0.9em; }
+.md-tl_payu {width:50%;float:left;padding:10px;}
+.md-tl_payu h2{font-size: 24px !important; color: #262626;font-weight:normal;}
+.md-tl_payu p{ font-size:14px;}
+.md-wrapper_payu p { text-align: left;}
+
+.md-col_payu{padding:10px;}
+.md-col_payu h3 {color: #262626 ;font-size:1.3em;}
+.md-col_payu li { list-style-image: url("../img/bullet.png"); margin: 0 0 8px 0;}
+.md-col_payu ul { margin: 0 15px 0px 0px; padding:  0 25px;}
+
+.form ul { padding-left: 0;}
+.form li { list-style: none; margin: 0 0 5px 0; min-height: 34px;}
+.form inpu { position: relative !important; opacity: 1 !important; height: auto !important; padding: 8px; width: 100%;} 
+.content-2_payu.form input { width: auto; }
+.content-1_payu a { text-decoration: underline; color: #262626; cursor: pointer;}
+.full{ width: 100% !important;}
+
+
+
+
+/*botones de accion*/
+
+.md-btn, .button-form_payu{ color: #FFF; text-align: center; padding: 18px 30px; border-radius: 40px; border: none; font-size: 15px;background: #a6c307; font-family: 'open_sansbold'; background-image:url(../img/arrow_button.png);background-position:90% center; background-repeat:no-repeat;
+}
+.md-btn:hover .button-form_payu:hover { 
+	color: #FFF;
+	background: #9de2ff; 
+   
+}
+
+
+.md_wrapper_gray{background-color:#f8f8f8;border-radius:10px;padding:10px 10px 25px 10px;margin-bottom:20px;}
+
+.clear{clear:both;}
+
+.config_payu{width:50%;float:left;padding:0px 20px 0px 20px;}
+
+.config_payu h3, .credentials_payu h3{color:#262626;font-size:24px;}
+
+.config_payu h3{background:url('../img/config.png') no-repeat 0px;height:40px;padding-left:45px;padding-top:5px;}
+
+.credentials_payu h3{background:url('../img/credentials.png') no-repeat 0px;height:40px;padding-left:45px;padding-top:5px;}
+
+.config_payu ol{padding:0px 25px 0px 25px;}
+
+.config_payu ol li{margin-bottom:15px;line-height: 20px;color:#b2d235;font-weight:bold;font-size:18px;}
+
+.config_payu .steps{font-weight:normal;color:#58595b;font-size:13px;}
+
+.credentials_payu form{padding:0px 10px 0px 10px;}
+
+.credentials_payu ul{padding:0;}
+
+.credentials_payu ul li{list-style-type: none;}
+
+.credentials_payu{width:50%;float:right;padding:0px 20px 0px 20px;0px;border-left:dotted 2px #7e7e7e;float:left;}
+
+.credentials_payu .steps{font-size:13px;}
+
+.credentials_payu label, .credentials_payu .label_payu{font-size:15px;color:#262626;font-family: 'open_sansbold';width:100% !important;text-align:left!important;font-weight:normal !important;padding:0 !important;}
+
+.credentials_payu input.input_payu[type="text"]{margin-bottom:10px; width:60%;margin-top:5px;padding:3px;}
+
+.credentials_payu input[type="radio"]{margin-bottom:25px;margin-right:10px;vertical-align:top;margin-top:3px;}
+
+.credentials_payu .caption{color:#7e7e7e;font-style: italic;font-size: 12px;font-family:#arial;}
+
+.md-btn, .button-form_payu{font-family: 'open_sansbold';}
+
+div.credentials_payu li.caption{font-family:arial;}
+
+.advice_payu{background:#4cc0ad; padding:3px 20px 10px 20px;color:#ffffff;}
+
+.credentials_payu li h4{font-size:18px;margin-bottom:15px;}
+
+.button_payu{padding:0px 10px 10px 10px;color:#fff; !important}
+
+.nobootstrap input[type="submit"]{color:#fff;padding:10px;!important}
+
+.form_config_payu{padding-bottom:15px;}
+
+.iframevd_payu{padding:20px;}
