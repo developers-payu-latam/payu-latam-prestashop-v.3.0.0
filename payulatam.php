@@ -241,6 +241,10 @@ class PayuLatam extends PaymentModule
             $this->postErrors[] = $this->l('You must indicate if the transaction mode is test or not');
         }
     }
+    
+    public function hookPaymentReturn($params)
+    {
+    }
 
     private function saveConfiguration()
     {
