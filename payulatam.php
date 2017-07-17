@@ -191,20 +191,20 @@ class PayuLatam extends PaymentModule
                 ))));
         return $this->display(__FILE__, 'views/templates/admin/credential.tpl');
     }
-/**
-    public function hookPayment($params)
-    {
-        if ($this->active) {
-        }else{
-            return;
-        }        
-        $this->context->smarty->assign(array(
-            'css' => 'modules/' . $this->name . '/views/css/',
-            'module_dir' => _PS_MODULE_DIR_ . $this->name . '/'
-        ));
-        return $this->display(__FILE__, 'views/templates/hook/payulatam_payment.tpl');
-    }
-  **/  
+    /**
+      public function hookPayment($params)
+      {
+      if ($this->active) {
+      }else{
+      return;
+      }
+      $this->context->smarty->assign(array(
+      'css' => 'modules/' . $this->name . '/views/css/',
+      'module_dir' => _PS_MODULE_DIR_ . $this->name . '/'
+      ));
+      return $this->display(__FILE__, 'views/templates/hook/payulatam_payment.tpl');
+      }
+     **/
     public function hookPaymentOptions() 
     {
         $newOption = new PaymentOption();
