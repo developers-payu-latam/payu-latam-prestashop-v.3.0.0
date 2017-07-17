@@ -191,7 +191,7 @@ class PayuLatam extends PaymentModule
                 ))));
         return $this->display(__FILE__, 'views/templates/admin/credential.tpl');
     }
-
+/**
     public function hookPayment($params)
     {
         if ($this->active) {
@@ -206,6 +206,18 @@ class PayuLatam extends PaymentModule
 
         return $this->display(__FILE__, 'views/templates/hook/payulatam_payment.tpl');
     }
+  **/  
+    public function hookPaymentOptions()
+{
+    $newOption = new PaymentOption();
+    $paymentForm = $this->fetch('views/templates/hook/payulatam_payment.tpl');
+    $newOption->setCallToActionText($this->trans('Pay by PayU', array(), 'Modules.MyModule.Shop'))
+        ->setForm($paymentForm)
+        ->setLogo(_MODULE_DIR_.'views/img/logo.png')
+        ->setAdditionalInformation('')
+        ->setAction($this->context->link->getModuleLink($this->name, 'payment'));
+    return [$newOption];
+}
     
     private function postValidation()
     {
