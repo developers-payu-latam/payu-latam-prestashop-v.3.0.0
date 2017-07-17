@@ -195,30 +195,28 @@ class PayuLatam extends PaymentModule
     public function hookPayment($params)
     {
         if ($this->active) {
-        } else {
+        }else{
             return;
-        }
-        
+        }        
         $this->context->smarty->assign(array(
             'css' => 'modules/' . $this->name . '/views/css/',
             'module_dir' => _PS_MODULE_DIR_ . $this->name . '/'
         ));
-
         return $this->display(__FILE__, 'views/templates/hook/payulatam_payment.tpl');
     }
   **/  
-    public function hookPaymentOptions()
-{
-    $newOption = new PaymentOption();
-    $paymentForm = $this->fetch('views/templates/hook/payulatam_payment.tpl');
-    $newOption->setCallToActionText($this->trans('Pay by PayU', array(), 'Modules.MyModule.Shop'))
-        ->setForm($paymentForm)
-        ->setLogo(_MODULE_DIR_.'views/img/logo.png')
-        ->setAdditionalInformation('')
-        ->setAction($this->context->link->getModuleLink($this->name, 'payment'));
-    return [$newOption];
-}
-    
+    public function hookPaymentOptions() 
+    {
+        $newOption = new PaymentOption();
+        $paymentForm = $this->fetch('views/templates/hook/payulatam_payment.tpl');
+        $newOption->setCallToActionText($this->trans('Pay by PayU', array(), 'Modules.MyModule.Shop'))
+                ->setForm($paymentForm)
+                ->setLogo(_MODULE_DIR_ . 'views/img/logo.png')
+                ->setAdditionalInformation('')
+                ->setAction($this->context->link->getModuleLink($this->name, 'payment'));
+        return [$newOption];
+    }
+
     private function postValidation()
     {
         if (!Validate::isCleanHtml(Tools::getValue('merchant_id')) ||
