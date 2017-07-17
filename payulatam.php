@@ -205,7 +205,7 @@ class PayuLatam extends PaymentModule
       return $this->display(__FILE__, 'views/templates/hook/payulatam_payment.tpl');
       }
      **/
-    public function hookPaymentOptions() 
+    public function hookPaymentOptions()
     {
         $newOption = new PaymentOption();
         $paymentForm = $this->fetch('views/templates/hook/payulatam_payment.tpl');
