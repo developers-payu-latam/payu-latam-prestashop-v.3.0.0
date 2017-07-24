@@ -272,7 +272,7 @@ class PayuLatam extends PaymentModule
             
             if ($order_state->add()) {
                 $source = dirname(__FILE__) . '/views/img/logo.png';
-                $destination = dirname(__FILE__) . '/../../views/img/os/' . (int)$order_state->id . '.gif';
+                $destination = dirname(__FILE__) . '/../../img/os/' . (int)$order_state->id . '.gif';
                 copy($source, $destination);
             }
             Configuration::updateValue('PAYU_OS_PENDING', (int)$order_state->id);
@@ -294,7 +294,7 @@ class PayuLatam extends PaymentModule
 
             if ($order_state->add()) {
                 $source = dirname(__FILE__) . '/views/img/logo.png';
-                $destination = dirname(__FILE__) . '/../../views/img/os/' . (int)$order_state->id . '.gif';
+                $destination = dirname(__FILE__) . '/../../img/os/' . (int)$order_state->id . '.gif';
                 copy($source, $destination);
             }
             Configuration::updateValue('PAYU_OS_FAILED', (int)$order_state->id);
@@ -316,7 +316,7 @@ class PayuLatam extends PaymentModule
 
             if ($order_state->add()) {
                 $source = dirname(__FILE__) . '/views/img/logo.png';
-                $destination = dirname(__FILE__) . '/../../views/img/os/' . (int)$order_state->id . '.gif';
+                $destination = dirname(__FILE__) . '/../../img/os/' . (int)$order_state->id . '.gif';
                 copy($source, $destination);
             }
             Configuration::updateValue('PAYU_OS_REJECTED', (int)$order_state->id);
