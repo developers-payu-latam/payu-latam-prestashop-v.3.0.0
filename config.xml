@@ -2,7 +2,7 @@
 <module>
 	<name>payulatam</name>
 	<displayName><![CDATA[PayU Latam]]></displayName>
-	<version><![CDATA[2.1.2]]></version>
+	<version><![CDATA[3.0.0]]></version>
 	<description><![CDATA[Payment gateway for PayU Latam]]></description>
 	<author><![CDATA[PayU Latam]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>

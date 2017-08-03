@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    PAYU LATAM <sac@payulatam.com>
-*  @copyright 2014-2016 PAYU LATAM
+*  @copyright 2014-2017 PAYU LATAM
 *  @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 */
 
@@ -41,7 +41,7 @@ class PayuLatam extends PaymentModule
     {
         $this->name = 'payulatam';
         $this->tab = 'payments_gateways';
-        $this->version = '2.1.2';
+        $this->version = '3.0.0';
         $this->author = 'PayU Latam';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
